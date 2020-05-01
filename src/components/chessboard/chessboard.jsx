@@ -44,7 +44,7 @@ class Chessboard extends React.Component {
       this.judgeUsableChess()
     })
   }
-  startGame = (ee) => {
+  startGame = () => {
     // 开始游戏
     this.setState({
       chessInfo: this.initChessInfo(),
